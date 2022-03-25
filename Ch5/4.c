@@ -1,10 +1,10 @@
 #include<stdio.h>
-// sum is a function which takes a and b as input and returns an integer as an output
-int sum(int a, int b); // function prototype declaration
+
+int sum(int a, int b); 
 
 int main(){
     int c;
-    c = sum(2, 15); // function call
+    c = sum(2, 15); 
     printf("The value of c is %d\n", c);
     return 0;
 }
