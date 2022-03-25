@@ -4,7 +4,7 @@ int sum(int a, int b);
 
 int main(){
     int c;
-    c = sum(2, 15); 
+    c = sum(2, 15); // function call
     printf("The value of c is %d\n", c);
     return 0;
 }
